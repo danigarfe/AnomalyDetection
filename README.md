@@ -13,12 +13,12 @@ First, clone the repository and move to the Docker folder:
 ### Building the image
 You can build the image with the following command:
 
-    sudo docker build -t anomaly-detection-Daniel .
+    sudo docker build -t anomaly-detection-daniel .
 
 ### Running the image
 With your terminal located inside the Docker folder, run the following command:
 
-    docker run --network host -v $(pwd):/home/jupyter anomaly-detection-Daniel
+    docker run --network host -v $(pwd):/home/jupyter anomaly-detection-daniel
  
  A Jupyter Notebook server will start running on TCP port 9999. You can access it with a web browser, on URL http://localhost:9999
 
