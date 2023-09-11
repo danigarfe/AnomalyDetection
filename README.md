@@ -8,7 +8,7 @@ Please, find the answers to the challenge questions in the document Documents/An
 First, clone the repository and move to the Docker folder:
 
     git clone https://github.com/danigarfe/AnomalyDetection.git
-    cd Docker
+    cd AnomalyDetection/Docker
 
 ### Building the image
 You can build the image with the following command:
